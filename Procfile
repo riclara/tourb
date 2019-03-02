@@ -1,1 +1,1 @@
-web: node ./build.js
+web: webpack && node app/build.js
