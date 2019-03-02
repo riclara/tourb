@@ -3,7 +3,7 @@ import cors from 'cors'
 import scrapeIt from 'scrape-it'
 
 const app = express()
-const port = 8000
+const port = process.env.PORT || 8000
 
 app.use(cors())
 
