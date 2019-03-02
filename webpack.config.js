@@ -10,8 +10,8 @@ let wpc = {
   devtool: 'source-map',
 
   output: {
-    path: path.resolve(__dirname, './dist'),
-    publicPath: '/dist/',
+    path: path.resolve(__dirname, './app'),
+    publicPath: '/app/',
     filename: 'build.js'
   },
 

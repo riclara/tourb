@@ -4,7 +4,7 @@
   "description": "acid tecnical evaluation",
   "main": "server/app.js",
   "scripts": {
-    "start": "webpack && node dist/build.js",
+    "start": "webpack && node app/build.js",
     "test": "export NODE_ENV=test && mocha --timeout 20000 --compilers js:babel-core/register ./test/**/*.spec.js",
     "jenkins": "npm test",
     "dev": "webpack --watch",

@@ -1,1 +1,1 @@
-web: node ./dist/build.js
+web: node ./build.js
